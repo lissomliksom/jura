@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+    />
+    <style>
+      html { scroll-behavior: smooth; }
+      .bg-blue-jura { background-color:#230944; }
+      .text-blue-jura { color: #230944;}
+    </style>
+    <title>Jura | Modular onboarding</title>
+  </head>
+  <body class="text-gray-700 antialiased">
+    <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white">
+      <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+        <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+          <p class="text-sm leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase">
+            <span class="text-gray-800 font-bold">Jura</span>
+            <span class="text-gray-400 px-3">|</span>
+            <span class="text-gray-600">Modular onboarding documentation</span>
+          </p>
+        </div>
+        <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden" id="example-collapse-navbar">
+          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <li class="flex items-center">
+              <a class="lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="https://www.github.com/lissomliksom/jura">
+                <i class="lg:text-gray-700 text-gray-900 fab fa-github text-lg leading-lg"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 85vh;">
+        <div class="container relative mx-auto">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full md:w-6/12 lg:w-4/12 px-4 ml-auto mr-auto text-center">
+              <div class="p-12">
+                <img src="assets/img/logo.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+          style="height: 70px; transform: translateZ(0px);"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-blue-jura fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+      </section>
+
+      <section class="pb-20 bg-blue-jura">
+        <div class="container mx-auto px-4 w-full">
+          <div class="flex flex-wrap">
+
+            <div class="w-full md:w-4/12 px-4 text-center">
+              <a href="#html">
+                <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg -mt-24 border border-gray-300 hover:border-gray-400 hover:bg-opacity-75">
+                  <div class="px-4 py-5 flex-auto">
+                    <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-orange-700">
+                      <i class="fab fa-html5 text-2xl"></i>
+                    </div>
+                    <h6 class="text-xl font-semibold">HTML</h6>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="w-full md:w-4/12 px-4 text-center">
+              <a href="#css">
+                <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg -mt-24 border border-gray-300 hover:border-gray-400 hover:bg-opacity-75">
+                  <div class="px-4 py-5 flex-auto">
+                    <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-700">
+                      <i class="fab fa-css3-alt text-2xl"></i>
+                    </div>
+                    <h6 class="text-xl font-semibold">CSS</h6>
+                  </div>
+                </div>
+            </a>
+            </div>
+
+            <div class="w-full md:w-4/12 px-4 text-center">
+              <a href="#js">
+                <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg -mt-24 border border-gray-300 hover:border-gray-400 hover:bg-opacity-75">
+                  <div class="px-4 py-5 flex-auto">
+                    <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-500">
+                      <i class="fab fa-js text-2xl"></i>
+                    </div>
+                    <h6 class="text-xl font-semibold">JavaScript</h6>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="flex flex-wrap items-center mt-64 mb-64">
+            <div class="w-full md:w-5/12 px-4 mr-auto ml-auto text-center">
+              <h2 class="text-extrabold text-5xl leading-relaxed text-blue-200 pb-6">Programvare</h2>
+              <ul class="text-blue-400">
+                <li class="hover:text-blue-300 pb-2"><a href="#">Visual Studio Code <i class="fas fa-external-link-alt pl-2"></i></a></li>
+                <li class="hover:text-blue-300 pb-2"><a href="#">Git <i class="fas fa-external-link-alt pl-2"></i></a></li>
+                <li class="hover:text-blue-300 pb-2"><a href="#">NPM <i class="fas fa-external-link-alt pl-2"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="relative py-20" id="html">
+        <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20" style="height: 80px; transform: translateZ(0px);">
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+
+        <div class="container mx-auto px-4 mt-24 mb-24">
+          <div class="items-center flex flex-wrap">
+            <div class="w-auto md:w-8/12 ml-auto mr-auto px-4 text-center">
+              <h2 class="text-extrabold text-5xl leading-relaxed pb-6">HTML</h2>
+              <div class="flex justify-center mb-12">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <h2 class="text-bold text-xl leading-relaxed pb-6">Ekstramateriale</h2>
+              <ul>
+                <li class="mb-6">
+                  <a href="#" class="w-full md:w-8/12 py-2 px-4 border border-transparent text-sm leading-5 rounded-md text-gray-700 bg-gray-400 shadow-sm hover:bg-gray-300 transition duration-150 ease-in-out">
+                    Ingen videoer
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="relative py-20 bg-gray-300" id="CSS">
+        <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20" style="height: 80px; transform: translateZ(0px);">
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-gray-300 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+
+        <div class="container mx-auto px-4 mt-24 mb-24">
+          <div class="items-center flex flex-wrap">
+            <div class="w-auto md:w-8/12 ml-auto mr-auto px-4 text-center">
+              <h2 class="text-extrabold text-5xl leading-relaxed pb-6">CSS</h2>
+              <div class="flex justify-center mb-12">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yfoY53QXEnI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <h2 class="text-bold text-xl leading-relaxed pb-6">Ekstramateriale</h2>
+              <ul>
+                <li class="mb-6">
+                  <a href="https://www.youtube.com/watch?v=JJSoEo8JSnc" class="w-full md:w-8/12 py-2 px-4 border border-transparent text-sm leading-5 rounded-md text-gray-700 bg-white shadow-sm hover:bg-blue-500 hover:text-white transition duration-150 ease-in-out">
+                    Flexbox CSS in 20 minutes <i class="fas fa-external-link-alt pl-2"></i>
+                  </a>
+                </li>
+                <li class="mb-6">
+                  <a href="https://flexboxfroggy.com/" class="w-full md:w-8/12 py-2 px-4 border border-transparent text-sm leading-5 rounded-md text-gray-700 bg-white shadow-sm hover:bg-blue-500 hover:text-white transition duration-150 ease-in-out">
+                    Flexbox Froggy <i class="fas fa-external-link-alt pl-2"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section class="relative py-20">
+        <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20" style="height: 80px; transform: translateZ(0px);">
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+
+        <div class="container mx-auto px-4 mt-24 mb-24" id="html">
+          <div class="items-center flex flex-wrap">
+            <div class="w-auto md:w-8/12 ml-auto mr-auto px-4 text-center">
+              <h2 class="text-extrabold text-5xl leading-relaxed pb-6">JavaScript</h2>
+              <div class="flex justify-center mb-12">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hdI2bqOjy3c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <h2 class="text-bold text-xl leading-relaxed pb-6">Ekstramateriale</h2>
+              <ul>
+                <li class="mb-6">
+                  <a href="https://www.youtube.com/watch?v=0ik6X4DJKCc" class="w-full md:w-8/12 py-2 px-4 border border-transparent text-sm leading-5 rounded-md text-gray-700 bg-gray-400 shadow-sm hover:bg-gray-300 transition duration-150 ease-in-out">
+                    DOM Manipulation Crash Course<i class="fas fa-external-link-alt pl-2 text-gray-500"></i>
+                  </a>
+                </li>
+                <li class="mb-6">
+                  <a href="https://www.youtube.com/watch?v=rRgD1yVwIvE" class="w-full md:w-8/12 py-2 px-4 border border-transparent text-sm leading-5 rounded-md text-gray-700 bg-gray-400 shadow-sm hover:bg-gray-300 transition duration-150 ease-in-out">
+                    Higher order functions & arrays<i class="fas fa-external-link-alt pl-2 text-gray-500"></i>
+                  </a>
+                </li>
+                <li class="mb-6">
+                  <a href="https://www.youtube.com/watch?v=Oive66jrwBs" class="w-full md:w-8/12 py-2 px-4 border border-transparent text-sm leading-5 rounded-md text-gray-700 bg-gray-400 shadow-sm hover:bg-gray-300 transition duration-150 ease-in-out">
+                    Fetch API<i class="fas fa-external-link-alt pl-2 text-gray-500"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
+</html>
